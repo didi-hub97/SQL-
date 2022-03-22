@@ -71,7 +71,6 @@ FROM us_counties_2010
 ORDER BY "Difference" DESC;
 
 
-----------------21/06/2021--------------------	
 			 
 ------- FINDING PERCENTAGES OF WHOLE--------------------------------
 SELECT geo_name,
