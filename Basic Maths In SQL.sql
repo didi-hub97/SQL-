@@ -206,40 +206,9 @@ SELECT (
        WITHIN GROUP (ORDER BY p0010001)
 	)AS "deciles"
 FROM us_counties_2010;
-			 
-			 
-			 
-			 
-			 
-			 
-			 
-			 
-			 
-			 
-			 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
--- quintiles
+	
+	    
+----- quintiles
 SELECT percentile_cont(array[.2,.4,.6,.8])
        WITHIN GROUP (ORDER BY p0010001) AS "quintiles"
 FROM us_counties_2010;
